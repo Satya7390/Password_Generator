@@ -21,7 +21,9 @@ const symbols = '~!@#$%^&*()_-+=?/.>,<`';
 
 let password = "";
 let passwordLength = 10;
-let checkCount = 0;
+let checkCount = 1;
+uppercaseCheck.checked = true;
+
 handleSlider();
 
 setIndicator("#ffff");
@@ -176,7 +178,6 @@ generateBtn.addEventListener('click', () => {
 
     // remove old password
     password = "";
-
 
 
     let funArr = [];
